@@ -10,9 +10,15 @@ export const Header: React.FC = () => {
         <img src={Logo} />
       </div>
       <div className="flex gap-[40px] items-center">
-        <div className="font-semibold">Product</div>
-        <div className="font-semibold">Services</div>
-        <div className="font-semibold">About</div>
+        <div className="font-semibold hover:cursor-pointer hover:text-white">
+          Services
+        </div>
+        <div className="font-semibold hover:cursor-pointer hover:text-white">
+          About
+        </div>
+        <div className="font-semibold hover:cursor-pointer hover:text-white">
+          Product
+        </div>
         <button className="h-[42px] w-full font-bold border-[2px] border-primary rounded-full px-10 py-2 hover:bg-primary hover:text-white">
           Log In
         </button>

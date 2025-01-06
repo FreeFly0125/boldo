@@ -42,32 +42,44 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="font-bold mb-[32px] text-black">Landings</h3>
             <ul className="space-y-[50px]">
-              <li>Home</li>
-              <li>Products</li>
-              <li>Services</li>
+              <li className="hover:cursor-pointer hover:text-primary">Home</li>
+              <li className="hover:cursor-pointer hover:text-primary">
+                Products
+              </li>
+              <li className="hover:cursor-pointer hover:text-primary">
+                Services
+              </li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-bold mb-[32px] text-black">Company</h3>
             <ul className="space-y-[50px]">
-              <li>Home</li>
+              <li className="hover:cursor-pointer hover:text-primary">Home</li>
               <div className="flex gap-[10px] items-center">
-                <li>Careers</li>
+                <li className="hover:cursor-pointer hover:text-primary">
+                  Careers
+                </li>
                 <div className="bg-secondary w-[72px] h-[30px] rounded-full text-primary font-bold text-tiny flex items-center justify-center hover:cursor-pointer hover:bg-primary hover:text-white">
                   Hiring!
                 </div>
               </div>
-              <li>Services</li>
+              <li className="hover:cursor-pointer hover:text-primary">
+                Services
+              </li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-bold mb-[32px] text-black">Resources</h3>
             <ul className="space-y-[50px]">
-              <li>Blog</li>
-              <li>Products</li>
-              <li>Services</li>
+              <li className="hover:cursor-pointer hover:text-primary">Blog</li>
+              <li className="hover:cursor-pointer hover:text-primary">
+                Products
+              </li>
+              <li className="hover:cursor-pointer hover:text-primary">
+                Services
+              </li>
             </ul>
           </div>
         </div>
