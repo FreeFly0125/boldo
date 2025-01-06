@@ -1,0 +1,22 @@
+/** @format */
+
+import React from "react";
+import Logo from "assets/Logo.svg";
+
+export const Header: React.FC = () => {
+  return (
+    <div className="justify-between flex text-primary pt-14 px-28 bg-secondary">
+      <div className="flex gap-[20px]">
+        <img src={Logo} />
+      </div>
+      <div className="flex gap-[40px] items-center">
+        <div className="font-semibold">Product</div>
+        <div className="font-semibold">Services</div>
+        <div className="font-semibold">About</div>
+        <button className="h-[42px] w-full font-bold border-[2px] border-primary rounded-full px-10 py-2">
+          Log In
+        </button>
+      </div>
+    </div>
+  );
+};
