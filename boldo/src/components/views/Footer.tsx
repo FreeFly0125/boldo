@@ -18,9 +18,9 @@ export const Footer: React.FC = () => {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="px-6 py-3 rounded-full placeholder-black"
+                className="px-6 py-3 rounded-full placeholder-black text-black"
               />
-              <button className="bg-secondary text-primary px-8 py-3 rounded-full font-bold">
+              <button className="bg-secondary text-primary px-8 py-3 rounded-full font-bold hover:bg-white">
                 Start now
               </button>
             </div>
@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
               <li>Home</li>
               <div className="flex gap-[10px] items-center">
                 <li>Careers</li>
-                <div className="bg-secondary w-[72px] h-[30px] rounded-full text-primary font-bold text-tiny flex items-center justify-center">
+                <div className="bg-secondary w-[72px] h-[30px] rounded-full text-primary font-bold text-tiny flex items-center justify-center hover:cursor-pointer hover:bg-primary hover:text-white">
                   Hiring!
                 </div>
               </div>

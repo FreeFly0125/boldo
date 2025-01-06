@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
         <div className="font-semibold">Product</div>
         <div className="font-semibold">Services</div>
         <div className="font-semibold">About</div>
-        <button className="h-[42px] w-full font-bold border-[2px] border-primary rounded-full px-10 py-2">
+        <button className="h-[42px] w-full font-bold border-[2px] border-primary rounded-full px-10 py-2 hover:bg-primary hover:text-white">
           Log In
         </button>
       </div>
